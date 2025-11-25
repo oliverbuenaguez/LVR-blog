@@ -1,0 +1,57 @@
+/* ----------------------------- */
+/* Estilos base del Blog LVR     */
+/* ----------------------------- */
+
+:root {
+  --color-bg: #f8f8f8;
+  --color-text: #222;
+  --color-primary: #4444ff;
+  --color-accent: #2222cc;
+  --max-width: 900px;
+  --font-main: "Segoe UI", Arial, sans-serif;
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-main);
+  line-height: 1.7;
+  padding: 20px;
+}
+
+/* Contenedor principal */
+main {
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+/* Títulos */
+h1,
+h2 {
+  margin-bottom: 15px;
+  color: var(--color-primary);
+}
+
+/* Secciones */
+section {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  opacity: 0.8;
+}
