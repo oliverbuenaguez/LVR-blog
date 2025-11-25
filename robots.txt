@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://oliverbuenaguez.github.io/LVR-blog/sitemap.xml
